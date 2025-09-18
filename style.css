@@ -1,6 +1,7 @@
 * {
     font-family: Caudex;
     background: transparent;
+    border-radius: 4px;
 }
 
 window#waybar {
