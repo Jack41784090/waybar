@@ -1,9 +1,5 @@
 * {
-    /* General taskbar font, I like maple mono ^-^*/
-    font-family: Maple Mono, "Font Awesome 6 Free", "Font Awesome 6 Brands";
-    border-radius: 8;
-    font-size: 14px;
-    padding: 0px;
+    font-family: Caudex;
     background: transparent;
 }
 
@@ -35,9 +31,9 @@ window#waybar {
     background-image: linear-gradient(to bottom, #27232b 100%);
 
     margin: 6px;
-    margin-right: 0px;
-    padding: 4px 8px;
-    border-radius: 8px;
+    /* margin-right: 0px; */
+    padding: 4px 4px;
+    /* border-radius: 8px; */
     color: #d8cab8;
 
     border-style: none;
@@ -56,7 +52,8 @@ window#waybar {
 
 #custom-applauncher {
     font-weight: bold;
-    transition-duration: 120ms;
+    padding: 0px 180px;
+    transition-duration: 1200ms;
 }
 
 #custom-applauncher:hover {
